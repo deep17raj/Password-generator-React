@@ -33,7 +33,7 @@ function App() {
         <button onClick={copyClipboard} className='text-white text-center font-semibold mt-4'>Copy</button>
       </div>
       <div className='flex gap-2 justify-center mt-6'>
-      <input type="range" name="" id="" max={99} min={6} value={length} onChange={(e)=>{
+      <input type="range" name="" id="" max={199} min={6} value={length} onChange={(e)=>{
           setLength(e.target.value)
         }}/>
         <p>length:{length}</p>
